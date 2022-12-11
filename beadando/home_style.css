@@ -270,7 +270,7 @@ p{
     background-color: white;
     margin-top: 3%;
     margin-right: 3%;
-    margin-left: 7%;
+    margin-left: 10%;
     margin-bottom: 3%;
     width: 103px;
     height: 100px;
@@ -290,7 +290,7 @@ a{
 }
 
 .pong{
-    margin-left: 40px;
+    margin-left: 100px;
     float: left;
 }
 
