@@ -1,0 +1,356 @@
+body{
+
+    background-color: black;
+
+}
+
+.navbar{
+
+    overflow: hidden;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+
+}
+
+.navbar a.active{
+
+    color: blue;
+
+}
+
+.navbar input[type=text]{
+
+    float: left;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.navbar a{
+
+    float: left;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 2%;
+
+}
+
+.navbar a:hover{
+
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:900px) {
+    .navbar a, .navbar input[type=text]{
+
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+
+    }
+
+    .navbar input[type=text]{
+
+        margin-right: 2%;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+
+    }
+
+}
+
+a{
+    font-size: 15px;
+    transition: 0.5s ease;
+}
+
+a:visited{
+    color:gray;
+    background-color: aquamarine;
+}
+
+a:link{
+    font-style: italic;
+}
+
+.left-div{
+
+    margin-left: 2%;
+
+}
+
+h1{
+
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-left: 2%;
+
+}
+
+p{
+
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    margin-right: 2%;
+
+}
+
+.tsosas{
+
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+    width: 17%;
+    height: 8%;
+    margin-left: 13%;
+    margin-top: 10%;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+
+.tsosas:hover{
+
+    transform: scale(1.1);
+    opacity: 0.7;
+
+}
+
+.gallery{
+
+    display: grid;
+    grid-template-columns: 25% 25%;
+	gap: 0px;
+    height: 100%;
+    margin: 0px;
+
+}
+
+.gallery_img{
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container{
+
+    position: relative;
+    margin-left: 285px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.overlay-1, .overlay-2{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+
+}
+
+.overlay-3, .overlay-4{
+
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: aliceblue;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+
+}
+
+.gallery_img--1, .overlay-1{
+
+    border-radius: 30px 0px 0px 0px;
+
+}
+
+.gallery_img--2, .overlay-2    {
+
+    border-radius: 0px 30px 0px 0px;
+
+}
+
+.gallery_img--3, .overlay-3{
+
+    border-radius: 0px 0px 0px 30px;
+
+}
+
+.gallery_img--4, .overlay-4{
+
+    border-radius: 0px 0px 30px 0px;
+
+}
+
+.container-3:hover .overlay-3, .container-4:hover .overlay-4{
+
+    bottom: 0;
+    height: 100%;
+    opacity: 90%
+
+}
+
+.container-1:hover .overlay-1, .container-2:hover .overlay-2{
+    height: 100%;
+    opacity: 90%
+}
+
+.text{
+
+    white-space: nowrap;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+
+.games{
+
+    display: flex;
+    text-align: center;
+    float: right;
+    margin-right: 3.5%;
+    margin-bottom: 3%;
+
+}
+
+.games_al{
+
+    display: inline-block;
+    border-radius: 80px;
+    text-align: center;
+    background-color: white;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    width: 103px;
+    height: 100px;
+    line-height: 100px;
+
+}
+.games_al:hover{
+
+    animation: games_anim 2s;
+
+}
+a{
+
+    font-size: 15px;
+    transition: 0.5s ease;
+
+}
+
+.pong{
+    margin-left: 40px;
+    float: left;
+}
+
+#pongkep{
+
+    margin-top: 18%;
+    display: inline-block;
+    width: 60%;
+
+}
+
+.quiz{
+    float: right;
+}
+
+#quizkep{
+
+    margin-top: 18%;
+    display: inline-block;
+    width: 60%;
+
+}
+
+.fade{
+
+    animation: fade 6s;
+
+}
+
+@keyframes fade {
+    
+    0%{
+        opacity: 10%;
+    }
+    25%{
+        opacity: 100%;
+    }
+    75%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 10%;
+    }
+
+}
+
+@keyframes games_anim {
+    
+   
+    0%{
+        transform: translateY(0px);
+    }
+    9%{
+        transform: translateY(-20px);
+    }
+    20%{
+        transform: translateY(10px);
+    }
+    27%{
+        transform: translateY(0px);
+    }
+
+}
