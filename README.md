@@ -15,19 +15,18 @@ Az oldal célja, hogy bemutassa néhány kedvenc sorozatomat strukturált és l�
 
 A weboldal **4 különálló oldalból** áll:
 
-1. **Főoldal (index.html)**
+1. **Főoldal (home.html)**
    - Áttekintés a tartalomról
    - Navigáció a többi oldalra
 
-2. **Sorozatok listája**
-   - Minden sorozat képpel, leírással és linkkel szerepel
+2. **THE 100**
+   - Sorozat képekkel, illetve egy űrlappal is megtalálható
 
-3. **Kedvencek oldala**
-   - Saját értékelés, toplisták, személyes vélemények
+3. **HARRY POTTER**
+   - Néhány információ
 
-4. **Kapcsolat oldal**
-   - Űrlap névvel, email címmel, üzenettel
-   - Alap validáció JavaScript segítségével
+4. **THE ORIGINALS**
+   - jQuery használatának elsajátítása
 
 ---
 
